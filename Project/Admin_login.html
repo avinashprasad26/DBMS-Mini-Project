@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<style media="screen">
+  #login_button:hover {
+    cursor: pointer;
+  }
+
+  .log_heading {
+    font-family: 'Montserrat', sans-serif;
+  }
+</style>
+
+<body style="background: url('images/adlog1.jpg') no-repeat; background-size: cover;">
+  <div class="container-fluid" style="width:400px;margin-top:60px;">
+    <h1 style="text-align: center; color: #fff">ADMIN LOGIN</h1>
+    <div class="card text-center shadow">
+      <img src="images/admin2.jpg" class="card-img-top" alt="..." style="height:250px;">
+      <div class="card-body">
+        <form class="form" action="Admin_login.php" method="post">
+          <label class="log_heading" for="username">Username : </label><br>
+          <input type="text" name="username" value=""><br><br>
+          <label class="log_heading" for="password">Password : </label><br>
+          <input type="password" name="password" value=""><br><br>
+          <input type="Submit" class="btn btn-primary" id="login_button" name="Login" value="Login"><br><br>
+          <p class="log_heading"> or </p>
+          <p class="log_heading">New User : <a href="Admin.html">Click Here</a></p>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+body {
+  background-image: url("hospital.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-item{
+  color: #fff;
+  font-size: 1em;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 650px;
+}
+
+.container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.inner {
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+
+.inner:hover img{
+  transform: scale(1.5);
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Montserrat Bold', sans-serif;
+}
+
+.card-img-top{
+  height: 300px;
+}
+
+.hospital_para{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+.card{
+  margin-left: 60px;
+}
+
+.login{
+  margin-bottom: 60px;
+  margin-top: 80px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+.middle_container{
+margin: 100px 0;
+}
+
+.about_us{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.photo{
+  height: 200px;
+  width: 200px;
+
+}
+
+.photo1{
+  height: 200px;
+  width: 200px;
+}
+
+.logo{
+  width: 25%;
+float: left;
+margin-right: 30px;
+}
+
+.Avinash{
+width: 25%;
+float: right;
+margin-left: 30px;
+}
+
+.kavita{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.avih3{
+  width: 35%;
+  float: left;
+  margin-left: 270px;
+  margin-top: 15px;
+}
+
+.lifecare{
+  width: 65%;
+  float: right;
+  margin-right: 43px;
+}
+
+.kavih3{
+  float: right;
+  margin-top: 110px;
+  margin-right: 55px;
+}
+
+.get{
+  margin-top: 30px;
+  color: #11999E;
+  text-align: center;
+}
+
+.thought{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.contact-message{
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.buton {
+  background: #30E3CB;
+  margin-left: 650px;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.buton:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  margin-top: 100px;
+}
+
+.footer-link {
+  color: #11999E;
+  text-align: center;
+}
+
+#link{
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+#flink{
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+#tlink{
+  margin-left: 50px;
+}
+
+#llink{
+  margin-left: 630px;
+}
